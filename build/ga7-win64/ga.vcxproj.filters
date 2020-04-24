@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\entity\ga_component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\entity\ga_entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\entity\ga_lua_component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\framework\ga_camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\framework\ga_input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\framework\ga_output.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\framework\ga_sim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\graphics\ga_cube_component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\graphics\ga_material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\graphics\ga_program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\graphics\ga_texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\jobs\ga_condvar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\jobs\ga_fiber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\jobs\ga_intpool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\jobs\ga_job.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\jobs\ga_queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\math\ga_mat3f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\math\ga_mat4f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\math\ga_quatf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\math\ga_vec2f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\math\ga_vec3f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\math\ga_vec4f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\always_copy_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0C2B5C66-C7DB-32FB-AD97-6BD477B34E3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4F9855DF-EDF1-34A7-B625-478341199E30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
