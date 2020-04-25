@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\a4063a1a0ff3c185c0e2ea9c44c24f6b\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\3rdparty\SDL2-2.0.5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\SDL2-2.0.5\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D2DAA714-5E70-3BC8-AF2D-F2C3BC951F07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

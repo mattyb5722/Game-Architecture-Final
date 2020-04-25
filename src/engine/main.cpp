@@ -16,9 +16,12 @@
 
 #include "entity/ga_entity.h"
 #include "entity/ga_lua_component.h"
-
+#include "entity/ga_gui_component.h"
+#include "entity/ga_emitter_component.h"
 #include "graphics/ga_cube_component.h"
 #include "graphics/ga_program.h"
+
+#include "gui/ga_font.h"
 
 #define STB_IMAGE_IMPLEMENTATION
 #include <stb_image.h>
@@ -30,7 +33,10 @@
 #include <unistd.h>
 #endif
 
+ga_font* g_font = nullptr;
+ga_sim* sim = NULL;
 static void set_root_path(const char* exepath);
+static void create_Particles();
 
 int main(int argc, const char** argv)
 {
@@ -40,23 +46,34 @@ int main(int argc, const char** argv)
 
 	// Create objects for three phases of the frame: input, sim and output.
 	ga_input* input = new ga_input();
-	ga_sim* sim = new ga_sim();
+	sim = new ga_sim();
 	ga_output* output = new ga_output(input->get_window());
 
 	// Create camera.
 	ga_camera* camera = new ga_camera({ 0.0f, 7.0f, 20.0f });
+	
 	ga_quatf rotation;
 	rotation.make_axis_angle(ga_vec3f::y_vector(), ga_degrees_to_radians(180.0f));
 	camera->rotate(rotation);
 	rotation.make_axis_angle(ga_vec3f::x_vector(), ga_degrees_to_radians(15.0f));
 	camera->rotate(rotation);
 
-	// Create an entity whose movement is driven by Lua script.
-	ga_entity lua;
-	lua.translate({ 0.0f, 2.0f, 1.0f });
-	ga_lua_component lua_move(&lua, "data/scripts/move.lua");
-	ga_cube_component lua_model(&lua, "data/textures/rpi.png");
-	sim->add_entity(&lua);
+	//////////////////////////////////////////////
+	// Final Project Code
+
+	g_font = new ga_font("VeraMono.ttf", 16.0f, 512, 512);
+
+	// Create emitter:
+	ga_entity emitter;
+	ga_emitter_component emitter_move(&emitter, sim);
+	ga_cube_component emitter_model(&emitter, "data/textures/rpi.png");
+	sim->add_entity(&emitter);
+
+	// Create gui component:
+	ga_entity gui;
+	ga_gui_component gui_actions(&gui, &emitter);
+	sim->add_entity(&gui);
+	/////////////////////////////////////////////
 
 	// Main loop:
 	while (true)
@@ -72,6 +89,14 @@ int main(int argc, const char** argv)
 
 		// Update the camera.
 		camera->update(&params);
+
+		/*
+		ga_entity particle;
+		ga_vec3f translate = ga_vec3f({ .1f, 0.0f, 0.0f });
+		ga_particle_component particle_move(&particle, translate);
+		ga_cube_component particle_model(&particle, "data/textures/rpi.png");
+		sim->add_entity(&particle);
+		*/
 
 		// Run gameplay.
 		sim->update(&params);
@@ -119,3 +144,5 @@ static void set_root_path(const char* exepath)
 	g_root_path[strlen(cwd) + 1] = '\0';
 #endif
 }
+
+

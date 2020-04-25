@@ -2,13 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\build",
-    "\\build\\ga7-win64",
-    "\\build\\ga7-win64\\Debug",
-    "\\build\\ga7-win64\\Debug\\data",
-    "\\build\\ga7-win64\\Debug\\data\\scripts",
+    "\\build\\gaFinal-win64",
+    "\\build\\gaFinal-win64\\Debug",
+    "\\build\\gaFinal-win64\\Debug\\data",
+    "\\build\\gaFinal-win64\\Debug\\data\\scripts",
     "\\data",
     "\\data\\scripts"
   ],
-  "SelectedNode": "\\build\\ga7-win64\\Debug\\data\\scripts\\move.lua",
   "PreviewInSolutionExplorer": false
 }

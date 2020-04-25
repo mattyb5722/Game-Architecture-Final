@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\3rdparty\SDL2-2.0.5\src\main\windows\SDL_windows_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\3rdparty\SDL2-2.0.5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CD0B41A8-669E-3B48-BFAF-96B30A362E06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
