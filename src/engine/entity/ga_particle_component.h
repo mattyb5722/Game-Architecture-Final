@@ -17,13 +17,15 @@
 class ga_particle_component : public ga_component
 {
 public:
-	ga_particle_component(class ga_entity* ent, ga_vec3f translation);
+	ga_particle_component(class ga_entity* ent);
 	virtual ~ga_particle_component();
 
 	virtual void update(struct ga_frame_params* params) override;
+	void addToScene(ga_mat4f start, ga_vec3f translation, float acceleration);
 
 private:
 	ga_entity* _ent;
 
 	ga_vec3f _translation;
+	float _acceleration;
 };

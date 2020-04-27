@@ -36,6 +36,11 @@ public:
 	const ga_mat4f& get_transform() const { return _transform; }
 	void set_transform(const ga_mat4f& t) { _transform = t; }
 
+	//////////////////////////////////////////////
+	// Final Project Code
+	const class ga_component* get_component(int i) const { return _components[i]; }
+	/////////////////////////////////////////////
+
 private:
 	std::vector<class ga_component*> _components;
 	ga_mat4f _transform;

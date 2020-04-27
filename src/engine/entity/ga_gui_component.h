@@ -27,6 +27,6 @@ public:
 	virtual void update(struct ga_frame_params* params) override;
 
 private:
+	int _button_phase;
 	ga_entity* _emitter;
-	// ga_emitter_component* _emitter_component;
 };

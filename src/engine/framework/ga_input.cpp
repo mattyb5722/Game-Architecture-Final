@@ -44,6 +44,7 @@ ga_input::ga_input()
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 0);
 
 	SDL_GLContext context = SDL_GL_CreateContext(static_cast<SDL_Window* >(_window));
+
 	SDL_GL_SetSwapInterval(0);
 
 	SDL_GL_MakeCurrent((SDL_Window*)_window, context);

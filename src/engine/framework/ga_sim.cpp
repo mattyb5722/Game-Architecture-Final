@@ -63,10 +63,7 @@ void ga_sim::update(ga_frame_params* params)
 	// Dispatch the jobs:
 	int32_t update_counter;
 	ga_job::run(decls, int(_entities.size()), &update_counter);
-	printf("   %d\n", update_counter);
 	ga_job::wait(&update_counter);
-	printf("%d\n", update_counter);
-	
 }
 
 void ga_sim::late_update(ga_frame_params* params)

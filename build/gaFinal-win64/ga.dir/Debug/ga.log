@@ -1,2 +1,5 @@
-﻿  ga_emitter_component.cpp
+﻿  ga_material.cpp
+  ga_texture.cpp
+  main.cpp
+  Generating Code...
   ga.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\Debug\ga.exe

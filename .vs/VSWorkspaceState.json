@@ -5,9 +5,10 @@
     "\\build\\gaFinal-win64",
     "\\build\\gaFinal-win64\\Debug",
     "\\build\\gaFinal-win64\\Debug\\data",
-    "\\build\\gaFinal-win64\\Debug\\data\\scripts",
+    "\\build\\gaFinal-win64\\Debug\\data\\shaders",
     "\\data",
-    "\\data\\scripts"
+    "\\data\\shaders"
   ],
+  "SelectedNode": "\\build\\gaFinal-win64\\Debug\\data\\shaders\\ga_unlit_texture_frag.glsl",
   "PreviewInSolutionExplorer": false
 }

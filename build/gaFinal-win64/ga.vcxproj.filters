@@ -31,6 +31,9 @@
     <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\framework\ga_sim.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\graphics\ga_2D_sprite_component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\graphics\ga_cube_component.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

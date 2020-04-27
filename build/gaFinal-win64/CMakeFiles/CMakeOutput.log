@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 4/24/2020 6:46:36 PM.
+Build started 4/26/2020 6:44:23 PM.
 Project "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\3.16.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -35,7 +35,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.82
+Time Elapsed 00:00:01.34
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 4/24/2020 6:46:37 PM.
+Build started 4/26/2020 6:44:26 PM.
 Project "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\3.16.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -80,7 +80,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.55
+Time Elapsed 00:00:01.02
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,80 +92,80 @@ The CXX compiler identification is MSVC, found in "C:/Users/m5w5b/Desktop/GitHub
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_71e96.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_3c29f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27023.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71e96.dir\Debug\\" /Fd"cmTC_71e96.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\testCCompiler.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3c29f.dir\Debug\\" /Fd"cmTC_3c29f.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\testCCompiler.c"
   testCCompiler.c
   
-  cmTC_71e96.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_71e96.exe
+  cmTC_3c29f.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_3c29f.exe
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_0997a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_a019c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27023.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0997a.dir\Debug\\" /Fd"cmTC_0997a.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a019c.dir\Debug\\" /Fd"cmTC_a019c.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c"
   CMakeCCompilerABI.c
   
-  cmTC_0997a.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_0997a.exe
+  cmTC_a019c.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_a019c.exe
 
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_07c85.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_ca40b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27023.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_07c85.dir\Debug\\" /Fd"cmTC_07c85.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ca40b.dir\Debug\\" /Fd"cmTC_ca40b.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
   testCXXCompiler.cxx
   
-  cmTC_07c85.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_07c85.exe
+  cmTC_ca40b.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_ca40b.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_49892.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_76424.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27023.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_49892.dir\Debug\\" /Fd"cmTC_49892.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_76424.dir\Debug\\" /Fd"cmTC_76424.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp"
   CMakeCXXCompilerABI.cpp
   
-  cmTC_49892.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_49892.exe
+  cmTC_76424.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_76424.exe
 
 
 
 Performing C SOURCE FILE Test HAVE_WIN32_CC succeeded with the following output:
 Change Dir: C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_5c1c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_58476.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27023.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c1c3.dir\Debug\\" /Fd"cmTC_5c1c3.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\src.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_58476.dir\Debug\\" /Fd"cmTC_58476.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\src.c"
   src.c
   
-  cmTC_5c1c3.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_5c1c3.exe
+  cmTC_58476.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_58476.exe
 
 
 Source file was:
@@ -175,16 +175,16 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_XINPUT_H succeeded with the following output:
 Change Dir: C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_db8bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_7a9fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27023.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_db8bf.dir\Debug\\" /Fd"cmTC_db8bf.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\src.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a9fe.dir\Debug\\" /Fd"cmTC_7a9fe.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\src.c"
   src.c
   
-  cmTC_db8bf.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_db8bf.exe
+  cmTC_7a9fe.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_7a9fe.exe
 
 
 Source file was:
@@ -195,97 +195,97 @@ Source file was:
 Determining if the include file d3d9.h exists passed with the following output:
 Change Dir: C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_e7107.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_d0cb9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27023.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7107.dir\Debug\\" /Fd"cmTC_e7107.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d0cb9.dir\Debug\\" /Fd"cmTC_d0cb9.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
   CheckIncludeFile.c
   
-  cmTC_e7107.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_e7107.exe
+  cmTC_d0cb9.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_d0cb9.exe
 
 
 
 Determining if the include file d3d11_1.h exists passed with the following output:
 Change Dir: C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_e2810.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f38cf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27023.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2810.dir\Debug\\" /Fd"cmTC_e2810.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f38cf.dir\Debug\\" /Fd"cmTC_f38cf.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
   CheckIncludeFile.c
   
-  cmTC_e2810.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_e2810.exe
+  cmTC_f38cf.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_f38cf.exe
 
 
 
 Determining if the include file ddraw.h exists passed with the following output:
 Change Dir: C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_09805.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_af910.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27023.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09805.dir\Debug\\" /Fd"cmTC_09805.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af910.dir\Debug\\" /Fd"cmTC_af910.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
   CheckIncludeFile.c
   
-  cmTC_09805.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_09805.exe
+  cmTC_af910.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_af910.exe
 
 
 
 Determining if the include file dsound.h exists passed with the following output:
 Change Dir: C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_6f802.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_91fe9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27023.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f802.dir\Debug\\" /Fd"cmTC_6f802.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91fe9.dir\Debug\\" /Fd"cmTC_91fe9.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
   CheckIncludeFile.c
   
-  cmTC_6f802.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_6f802.exe
+  cmTC_91fe9.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_91fe9.exe
 
 
 
 Determining if the include file dinput.h exists passed with the following output:
 Change Dir: C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_76fc3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_29e9d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27023.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76fc3.dir\Debug\\" /Fd"cmTC_76fc3.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29e9d.dir\Debug\\" /Fd"cmTC_29e9d.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
   CheckIncludeFile.c
   
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  cmTC_76fc3.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_76fc3.exe
+  cmTC_29e9d.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_29e9d.exe
 
 
 
 Determining if the include file dxgi.h exists passed with the following output:
 Change Dir: C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_86da7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_31d11.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27023.1 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86da7.dir\Debug\\" /Fd"cmTC_86da7.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31d11.dir\Debug\\" /Fd"cmTC_31d11.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
   CheckIncludeFile.c
   
-  cmTC_86da7.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_86da7.exe
+  cmTC_31d11.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\CMakeFiles\CMakeTmp\Debug\cmTC_31d11.exe
 
 
 

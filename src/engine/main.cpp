@@ -19,6 +19,7 @@
 #include "entity/ga_gui_component.h"
 #include "entity/ga_emitter_component.h"
 #include "graphics/ga_cube_component.h"
+#include "graphics/ga_2D_sprite_component.h"
 #include "graphics/ga_program.h"
 
 #include "gui/ga_font.h"
@@ -34,9 +35,10 @@
 #endif
 
 ga_font* g_font = nullptr;
-ga_sim* sim = NULL;
+// ga_sim* sim = NULL;
+std::vector<ga_entity*> particles;
+
 static void set_root_path(const char* exepath);
-static void create_Particles();
 
 int main(int argc, const char** argv)
 {
@@ -46,7 +48,7 @@ int main(int argc, const char** argv)
 
 	// Create objects for three phases of the frame: input, sim and output.
 	ga_input* input = new ga_input();
-	sim = new ga_sim();
+	ga_sim* sim = new ga_sim();
 	ga_output* output = new ga_output(input->get_window());
 
 	// Create camera.
@@ -60,14 +62,22 @@ int main(int argc, const char** argv)
 
 	//////////////////////////////////////////////
 	// Final Project Code
-
 	g_font = new ga_font("VeraMono.ttf", 16.0f, 512, 512);
 
 	// Create emitter:
 	ga_entity emitter;
-	ga_emitter_component emitter_move(&emitter, sim);
-	ga_cube_component emitter_model(&emitter, "data/textures/rpi.png");
+	ga_emitter_component emitter_move(&emitter);
+	// ga_cube_component emitter_model(&emitter, "data/textures/rpi.png");
 	sim->add_entity(&emitter);
+
+
+	for (int i = 0; i < 100; i++) {
+		ga_entity* particle = new ga_entity();
+		new ga_particle_component(particle);
+		new ga_2D_sprite_component(particle, "data/textures/rpi.png");
+		sim->add_entity(particle);
+		particles.push_back(particle);
+	}
 
 	// Create gui component:
 	ga_entity gui;
@@ -89,14 +99,6 @@ int main(int argc, const char** argv)
 
 		// Update the camera.
 		camera->update(&params);
-
-		/*
-		ga_entity particle;
-		ga_vec3f translate = ga_vec3f({ .1f, 0.0f, 0.0f });
-		ga_particle_component particle_move(&particle, translate);
-		ga_cube_component particle_model(&particle, "data/textures/rpi.png");
-		sim->add_entity(&particle);
-		*/
 
 		// Run gameplay.
 		sim->update(&params);

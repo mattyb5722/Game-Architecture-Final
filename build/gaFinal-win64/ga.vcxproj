@@ -415,6 +415,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\framework\ga_input.cpp" />
     <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\framework\ga_output.cpp" />
     <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\framework\ga_sim.cpp" />
+    <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\graphics\ga_2D_sprite_component.cpp" />
     <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\graphics\ga_cube_component.cpp" />
     <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\graphics\ga_material.cpp" />
     <ClCompile Include="C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\src\engine\graphics\ga_program.cpp" />

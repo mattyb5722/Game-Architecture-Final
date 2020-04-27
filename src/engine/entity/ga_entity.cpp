@@ -10,6 +10,7 @@
 #include "ga_entity.h"
 #include "ga_component.h"
 
+
 ga_entity::ga_entity()
 {
 	_transform.make_identity();
