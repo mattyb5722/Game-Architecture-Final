@@ -19,8 +19,41 @@ ga_2D_sprite_component::ga_2D_sprite_component(ga_entity* ent, const char* textu
 {
 	_material = new ga_unlit_texture_material(texture_file);
 	_material->init();
+	
+	SetSize(.5f);
+}
 
-	static GLfloat color[] =
+ga_2D_sprite_component::~ga_2D_sprite_component()
+{
+	glDeleteBuffers(4, _vbos);
+	glDeleteVertexArrays(1, &_vao);
+
+	delete _material;
+}
+
+void ga_2D_sprite_component::update(ga_frame_params* params)
+{
+	ga_static_drawcall draw;
+	draw._name = "ga_2D_sprite_component";
+	draw._vao = _vao;
+	draw._index_count = _index_count;
+	draw._transform = get_entity()->get_transform();
+	draw._draw_mode = GL_TRIANGLES;
+	draw._material = _material;
+
+	while (params->_static_drawcall_lock.test_and_set(std::memory_order_acquire)) {}
+	params->_static_drawcalls.push_back(draw);
+	params->_static_drawcall_lock.clear(std::memory_order_release);
+}
+
+// Changes texture of cube
+void ga_2D_sprite_component::setTextures(class ga_material* material, float size) {
+	_material = material;
+}
+
+void ga_2D_sprite_component::SetSize(float size)
+{
+	GLfloat color[] =
 	{
 		// Front
 		1.0f, 1.0f, 1.0f,
@@ -53,7 +86,7 @@ ga_2D_sprite_component::ga_2D_sprite_component(ga_entity* ent, const char* textu
 		1.0f, 1.0f, 1.0f,
 		1.0f, 1.0f, 1.0f
 	};
-	static GLfloat vertices[] = {
+	GLfloat vertices[] = {
 		// Front
 		-0.25, -0.25,  0.25,
 		 0.25, -0.25,  0.25,
@@ -85,7 +118,7 @@ ga_2D_sprite_component::ga_2D_sprite_component(ga_entity* ent, const char* textu
 		  0.25,  0.25, -0.25,
 		  0.25,  0.25,  0.25,
 	};
-	static GLfloat texcoords[] = {
+	GLfloat texcoords[] = {
 		// Front
 		0.0, 0.0,
 		1.0, 0.0,
@@ -117,7 +150,7 @@ ga_2D_sprite_component::ga_2D_sprite_component(ga_entity* ent, const char* textu
 		0.0, 0.0,
 		0.0, 0.0,
 	};
-	static GLushort indices[] = {
+	GLushort indices[] = {
 		// Front
 		0,  1,  2,
 		2,  3,  0,
@@ -137,6 +170,11 @@ ga_2D_sprite_component::ga_2D_sprite_component(ga_entity* ent, const char* textu
 		20, 21, 22,
 		22, 23, 20,
 	};
+
+	for (int i = 0; i < 72; i++) {
+		vertices[i] *= size;
+	}
+
 
 	_index_count = uint32_t(sizeof(indices) / sizeof(*indices));
 
@@ -164,32 +202,4 @@ ga_2D_sprite_component::ga_2D_sprite_component(ga_entity* ent, const char* textu
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
 	glBindVertexArray(0);
-}
-
-ga_2D_sprite_component::~ga_2D_sprite_component()
-{
-	glDeleteBuffers(4, _vbos);
-	glDeleteVertexArrays(1, &_vao);
-
-	delete _material;
-}
-
-void ga_2D_sprite_component::update(ga_frame_params* params)
-{
-	ga_static_drawcall draw;
-	draw._name = "ga_2D_sprite_component";
-	draw._vao = _vao;
-	draw._index_count = _index_count;
-	draw._transform = get_entity()->get_transform();
-	draw._draw_mode = GL_TRIANGLES;
-	draw._material = _material;
-
-	while (params->_static_drawcall_lock.test_and_set(std::memory_order_acquire)) {}
-	params->_static_drawcalls.push_back(draw);
-	params->_static_drawcall_lock.clear(std::memory_order_release);
-}
-
-// Changes texture of cube
-void ga_2D_sprite_component::setTextures(class ga_material* material) {
-	_material = material;
 }

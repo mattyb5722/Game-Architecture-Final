@@ -24,11 +24,14 @@ public:
 
 	virtual void update(struct ga_frame_params* params) override;
 
-	void setTextures(class ga_material* material);
+	void setTextures(class ga_material* material, float size);
+	void SetSize(float size);
 
 private:
 	class ga_material* _material;
 	uint32_t _vao;
 	uint32_t _vbos[4];
 	uint32_t _index_count;
+
+	GLfloat _vertices[72];
 };

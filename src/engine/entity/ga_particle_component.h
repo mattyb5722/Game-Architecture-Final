@@ -21,11 +21,15 @@ public:
 	virtual ~ga_particle_component();
 
 	virtual void update(struct ga_frame_params* params) override;
-	void addToScene(ga_mat4f start, ga_vec3f translation, float acceleration);
+	void addToScene(ga_mat4f start, ga_vec3f translation, float acceleration, float energy);
+
+	void set_wind();
 
 private:
 	ga_entity* _ent;
 
 	ga_vec3f _translation;
 	float _acceleration;
+	float _energy;
+	ga_vec3f _wind;
 };

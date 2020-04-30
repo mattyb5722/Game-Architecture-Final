@@ -1,5 +1,3 @@
-﻿  ga_material.cpp
-  ga_texture.cpp
-  main.cpp
-  Generating Code...
+﻿  ga_particle_component.cpp
+     Creating library C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/Debug/ga.lib and object C:/Users/m5w5b/Desktop/GitHub/Game-Architecture-Final/build/gaFinal-win64/Debug/ga.exp
   ga.vcxproj -> C:\Users\m5w5b\Desktop\GitHub\Game-Architecture-Final\build\gaFinal-win64\Debug\ga.exe

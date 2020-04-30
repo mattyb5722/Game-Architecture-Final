@@ -40,14 +40,23 @@ public:
 		};
 	}
 
-	void increase_acceleration() { _particle_acceleration += .01f; }
-	void decrease_acceleration() { _particle_acceleration -= .01f; }
+	void increase_acceleration();
+	void decrease_acceleration();
+
+	void increase_size();
+	void decrease_size();
+
+	void increase_energy();
+	void decrease_energy();
 
 private:
 	int _particle_index;
 	float _particle_speed;
 	float _particle_acceleration;
 	std::string _particle_shape;
+	float _particle_size;
+	float _particle_energy;
+
 
 	int _texture_index;
 	std::vector<class ga_material*> _materials;

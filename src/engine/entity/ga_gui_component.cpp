@@ -87,6 +87,12 @@ void ga_gui_component::update(ga_frame_params* params)
 		else if (ga_button("Acceleration--", 20.0f, 200.0f, params).get_clicked(params)) {
 			emitter_component->decrease_acceleration();
 		}
+		else if (ga_button("Energy++", 20.0f, 220.0f, params).get_clicked(params)) {
+			emitter_component->increase_energy();
+		}
+		else if (ga_button("Energy--", 20.0f, 240.0f, params).get_clicked(params)) {
+			emitter_component->decrease_energy();
+		}
 	}
 	else if (_button_phase == 3) {
 		if (ga_button("Image++", 20.0f, 60.0f, params).get_clicked(params)) {
@@ -94,12 +100,6 @@ void ga_gui_component::update(ga_frame_params* params)
 		}
 		else if (ga_button("Image--", 20.0f, 80.0f, params).get_clicked(params)) {
 			emitter_component->decrement_Texture();
-		}
-		else if (ga_button("Size++", 20.0f, 100.0f, params).get_clicked(params)) {
-			// _emitter->translate(ga_vec3f({ 1.0f, 0.0f, 0.0f }));
-		}
-		else if (ga_button("Size--", 20.0f, 120.0f, params).get_clicked(params)) {
-			// _emitter->translate(ga_vec3f({ 1.0f, 0.0f, 0.0f }));
 		}
 	}
 	

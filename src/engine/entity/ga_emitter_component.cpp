@@ -22,6 +22,8 @@ ga_emitter_component::ga_emitter_component(ga_entity* ent) : ga_component(ent)
 	_particle_speed = .05f;
 	_particle_acceleration = 1.0f;
 	_particle_shape = "Sphere";
+	_particle_size = 1.0f;
+	_particle_energy = 1.0f;
 
 	_texture_index = 0;
 
@@ -81,7 +83,6 @@ ga_vec3f ga_emitter_component::determine_particle_translte() {
 
 		y = 0.0f;
 	}
-
 	return ga_vec3f({ x, y, z });
 }
 
@@ -89,12 +90,11 @@ void ga_emitter_component::update(ga_frame_params* params)
 {
 	extern std::vector<ga_entity*> particles;
 	
-
 	ga_particle_component* particle = (ga_particle_component*)particles[_particle_index]->get_component(0);
-	particle->addToScene(get_entity()->get_transform(), determine_particle_translte(), _particle_acceleration);
+	particle->addToScene(get_entity()->get_transform(), determine_particle_translte(), _particle_acceleration, _particle_energy);
 
 	ga_2D_sprite_component* sprite = (ga_2D_sprite_component*)particles[_particle_index]->get_component(1);
-	sprite->setTextures(_materials[_texture_index]);
+	sprite->setTextures(_materials[_texture_index], _particle_size);
 
 	_particle_index++;
 	if (_particle_index >= particles.size()) {
@@ -113,5 +113,44 @@ void ga_emitter_component::decrement_Texture() {
 	_texture_index--;
 	if (_texture_index < 0) {
 		_texture_index = 0;
+	}
+}
+
+void ga_emitter_component::increase_acceleration()
+{
+	_particle_acceleration += .005f;
+}
+
+void ga_emitter_component::decrease_acceleration()
+{
+	_particle_acceleration -= .005f;
+	if (_particle_acceleration < 0.0f) {
+		_particle_acceleration = 0.0f;
+	}
+}
+
+void ga_emitter_component::increase_size()
+{
+	_particle_size += 0.1f;
+}
+
+void ga_emitter_component::decrease_size()
+{
+	_particle_size -= 0.5f;
+	if (_particle_size < 0.1f) {
+		_particle_size = 0.1f;
+	}
+}
+
+void ga_emitter_component::increase_energy()
+{
+	_particle_energy += 0.1f;
+}
+
+void ga_emitter_component::decrease_energy()
+{
+	_particle_energy -= 0.1f;
+	if (_particle_size < 0.1f) {
+		_particle_size = 0.1f;
 	}
 }
